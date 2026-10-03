@@ -24,9 +24,11 @@ existing Depthworks support site; the support and privacy pages stay in
 google.com, pub-2111037597422722, DIRECT, f08c47fec0942fa0
 ```
 
-The publisher ID matches Depthworks' Android and iOS AdMob IDs. Keep this file
-identical to `docs/app-ads.txt` in the support repository whenever authorized
-sellers change. Add separate seller lines if other ad networks are introduced.
+This repository holds the shared authorization file for FindusLab apps using
+AdMob publisher `pub-2111037597422722`, including Depthworks on Android and iOS.
+New apps using the same publisher and developer website can reuse this file.
+Maintain the file here whenever authorized sellers change. Add separate seller
+lines if other ad networks are introduced.
 
 In Google Play, use https://theoharti.github.io/DepthworksSupport/ as the
 developer website. In App Store Connect, use it as the marketing URL. Link the
