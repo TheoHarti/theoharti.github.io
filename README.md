@@ -1,4 +1,4 @@
-# FindusLab GitHub Pages root
+# theoharti.github.io
 
 This small site serves AdMob's mobile-app authorization file at
 https://theoharti.github.io/app-ads.txt. The home page directs visitors to the
@@ -7,18 +7,14 @@ existing Depthworks support site; the support and privacy pages stay in
 
 ## Publish
 
-1. Create a **public** repository named `theoharti.github.io` under **TheoHarti**
-   on GitHub. Leave it empty: do not initialize a README, license, or .gitignore.
-2. From this prepared Git checkout, push the committed files:
-
-   ```powershell
-   git push -u origin main
-   ```
-
-3. In the repository's **Settings → Pages**, select **Deploy from a branch**,
+1. In the repository's **Settings → Pages**, select **Deploy from a branch**,
    then **main** and **/(root)**, and save.
-4. After deployment, open https://theoharti.github.io/app-ads.txt and confirm
+2. After deployment, open https://theoharti.github.io/app-ads.txt and confirm
    it returns the plain publisher line below, rather than an HTML page.
+
+Future pushes to `main` update the published site automatically. The empty
+`.nojekyll` file keeps these files static; `index.html` directs visitors to the
+Depthworks support site.
 
 ```text
 google.com, pub-2111037597422722, DIRECT, f08c47fec0942fa0
